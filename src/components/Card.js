@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { LuCopy } from "react-icons/lu";
 import { useToast } from "@/hooks/use-toast";
 import useSettingsStore from "@/utils/store";
@@ -188,9 +187,7 @@ const Card = ({ id, animation, name }) => {
           animationDelay: `${settings.delay}ms`,
           animationTimingFunction: settings.timingFunction,
         }}
-        className={`w-[100px] h-[100px] rounded-2xl shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] bg-gray-900 transform transition duration-500 ${
-          animationClass // Hover animation
-        }`}
+        className={`w-[100px] h-[100px] rounded-2xl shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] bg-[#202020] transform transition duration-500 ${animationClass}`}
       ></div>
       <div className="text-[0.8rem] font-medium flex px-1 justify-between w-full items-center">
         <p className="text-wrap z-20 w-[80px] leading-[0.9rem]">{name}</p>

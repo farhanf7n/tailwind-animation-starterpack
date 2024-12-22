@@ -10,6 +10,7 @@
     "release": "standard-version"
   },
   "dependencies": {
+    "@microsoft/clarity": "^1.0.0",
     "@radix-ui/react-select": "^2.1.2",
     "@radix-ui/react-slider": "^1.2.1",
     "@radix-ui/react-slot": "^1.1.0",
@@ -30,6 +31,7 @@
     "zustand": "^5.0.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",

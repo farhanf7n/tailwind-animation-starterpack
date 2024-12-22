@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { themeData } from "@/utils/data";
 import { LuCopy } from "react-icons/lu";
 import { useToast } from "@/hooks/use-toast";
@@ -22,10 +21,14 @@ const BasicAnimationGuide = () => {
           <li className="py-2">
             <p className=" mb-2">
               Copy and paste the following code into your{" "}
-              <code className="font-semibold px-2 py-1 bg-zinc-50 rounded ">
+              <code
+                className="font-semibold px-2 py-1 bg-zinc-50 rounded font-mono"
+                style={{ fontFamily: "MonoLisa" }}
+              >
                 tailwind.config.js
               </code>{" "}
-              file under <code>theme</code> section:
+              file under <code style={{ fontFamily: "MonoLisa" }}>theme</code>{" "}
+              section:
             </p>
             <div className="relative group overflow-hidden">
               <button
@@ -34,7 +37,10 @@ const BasicAnimationGuide = () => {
               >
                 <LuCopy /> Copy code
               </button>
-              <pre className="h-40 overflow-x-auto border text-xs rounded-xl bg-zinc-50 p-3 ">
+              <pre
+                className="h-fit max-h-60 no-scrollbar overflow-auto text-xs border rounded-xl bg-zinc-50 p-3 font-mono"
+                style={{ fontFamily: "MonoLisa" }}
+              >
                 {themeData}
               </pre>
             </div>

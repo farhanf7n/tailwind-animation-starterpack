@@ -12,8 +12,9 @@ const Header = () => {
             <p className="font-semibold">Tailwind Animations Starter Pack</p>
           </div>
           <a
-            href="https://www.linkedin.com/in/farhan-ahmed-1999/"
+            href="https://www.linkedin.com/in/farhanf7n/"
             target="_blank"
+            className="bg-zinc-50 rounded top-2 flex gap-1 items-center right-2 px-2 mx-2 py-1 text-xs "
             rel="noopener noreferrer"
           >
             Contact Me

@@ -30,7 +30,10 @@ const CopyCode = ({ themeData }) => {
           </>
         )}
       </button>
-      <pre className="h-fit max-h-60 rounded-lg  border border-zinc-200  no-scrollbar overflow-auto text-xs  bg-zinc-50 p-3 ">
+      <pre
+        className="h-fit max-h-60 rounded-lg border border-zinc-200  no-scrollbar overflow-auto text-xs  bg-zinc-50 p-3 font-mono"
+        style={{ fontFamily: "MonoLisa" }}
+      >
         {themeData}
       </pre>
     </div>

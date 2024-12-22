@@ -82,3 +82,10 @@ body {
     scrollbar-width: none; /* Firefox */
   }
 }
+
+@font-face {
+  font-family: "MonoLisa";
+  src: url("/fonts/MonoLisaVariableNormal.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -18,12 +18,6 @@ const Settings = () => {
   const [resetLoading, setResetLoading] = useState(false);
   const [resetDone, setResetDone] = useState(false);
 
-  // const animationStyle = {
-  //   transition: settings.isEnabled
-  //     ? `all ${settings.duration}ms ${settings.timingFunction} ${settings.delay}ms`
-  //     : "none",
-  // };
-
   const resetSettings = async () => {
     setResetLoading(true);
     updateSetting("timingFunction", "ease");
@@ -36,7 +30,7 @@ const Settings = () => {
       setResetDone(true);
 
       setTimeout(() => {
-        setResetDone(false); // Revert back to the original button text after 2 seconds
+        setResetDone(false);
       }, 2000);
     }, 200);
   };

@@ -1,4 +1,3 @@
-import React from "react";
 import TextBlurReveal from "./TextRevealPerChar";
 import WordAnimation from "./WordAnimation";
 import ScrambleTextAnimation from "./ScrambleTextAnimation";
@@ -27,12 +26,20 @@ const TextAniamtion = () => {
             <li className="py-2 space-y-2">
               <p className=" mb-2">
                 Copy and paste the following code into your{" "}
-                <code className="font-semibold px-2 py-1 bg-zinc-50 rounded ">
+                <code
+                  className="font-semibold px-2 py-1 bg-zinc-50 rounded font-mono"
+                  style={{ fontFamily: "MonoLisa" }}
+                >
                   tailwind.config.js
                 </code>{" "}
-                file under <code>theme</code> section:
+                file under <code style={{ fontFamily: "MonoLisa" }}>theme</code>{" "}
+                section:
               </p>
-              <CopyCode themeData={textAnimationTailwindConfig} />
+              <CopyCode
+                style={{ fontFamily: "MonoLisa" }}
+                className="font-mono"
+                themeData={textAnimationTailwindConfig}
+              />
             </li>
             <li>
               Customize the animation using Tailwind&apos;s @keyframes and
