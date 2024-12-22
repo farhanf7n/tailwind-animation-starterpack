@@ -1,4 +1,5 @@
 <p align="center">
+  <img src="https://i.imgur.com/upd47Hp.png" height="148">
   <h2 align="center">✨ Tailwind Animation Starterpack</h2>
   <p align="center">Supercharge your web designs with 80+ handcrafted Tailwind CSS animations<p>
   <img src="https://i.imgur.com/Vu5kojd.png" alt="Project diagram/screenshot">
