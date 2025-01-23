@@ -23,7 +23,6 @@ const BasicAnimationGuide = () => {
               Copy and paste the following code into your{" "}
               <code
                 className="font-semibold px-2 py-1 bg-zinc-50 rounded font-mono"
-                style={{ fontFamily: "MonoLisa" }}
               >
                 tailwind.config.js
               </code>{" "}
@@ -39,7 +38,6 @@ const BasicAnimationGuide = () => {
               </button>
               <pre
                 className="h-fit max-h-60 no-scrollbar overflow-auto text-xs border rounded-xl bg-zinc-50 p-3 font-mono"
-                style={{ fontFamily: "MonoLisa" }}
               >
                 {themeData}
               </pre>
