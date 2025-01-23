@@ -27,7 +27,7 @@ const BasicAnimationGuide = () => {
               >
                 tailwind.config.js
               </code>{" "}
-              file under <code style={{ fontFamily: "MonoLisa" }}>theme</code>{" "}
+              file under <code>theme</code>{" "}
               section:
             </p>
             <div className="relative group overflow-hidden">
